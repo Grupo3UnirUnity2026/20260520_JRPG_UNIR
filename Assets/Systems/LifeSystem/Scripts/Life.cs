@@ -33,7 +33,7 @@ public class Life : MonoBehaviour
     public UnityEvent onFullLifeRecoved; //Recuperamos toda la vida
     HurtCollider hurtCollider;
     CharacterController2D characterController2D;
-    private LifeRecovery lifeRecovery;
+    LifeRecovery lifeRecovery;
 
     private float currentLifePercentage;
 
@@ -67,13 +67,19 @@ public class Life : MonoBehaviour
     private void OnEnable()
     {
         this.hurtCollider.onHitReceive.AddListener(OnHitReceive);
-        this.lifeRecovery.onLifeRecovery.AddListener(OnLifeRecovery);
+        if (this.lifeRecovery != null)
+        {
+            this.lifeRecovery.onLifeRecovery.AddListener(OnLifeRecovery);
+        }
     }
 
     private void OnDisable()
     {
         this.hurtCollider.onHitReceive.RemoveListener(OnHitReceive);
-        this.lifeRecovery.onLifeRecovery.RemoveListener(OnLifeRecovery);
+        if (this.lifeRecovery != null)
+        {
+            this.lifeRecovery.onLifeRecovery.RemoveListener(OnLifeRecovery);
+        }
     }
 
     private void Update()

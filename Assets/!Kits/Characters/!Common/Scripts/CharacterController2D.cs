@@ -1,12 +1,13 @@
-using Unity.VisualScripting.Dependencies.NCalc;
 using UnityEngine;
 
-public class CharacterController2D : MonoBehaviour
+public class CharacterController2D : MonoBehaviour, IVisible
 {
     [SerializeField] float movementSpeed = 3f;
 
     Rigidbody2D rb2D;
     Animator animator;
+
+    [SerializeField] IVisible.Side side = IVisible.Side.Neutral;
 
     private void Awake()
     {
@@ -26,5 +27,15 @@ public class CharacterController2D : MonoBehaviour
         this.rawMove = rawMove;
         this.animator.SetFloat("HorizontalVelocity", this.rawMove.x);
         this.animator.SetFloat("VerticalVelocity", this.rawMove.y);
+    }
+
+    public IVisible.Side GetSide()
+    {
+        return this.side;
+    }
+
+    public Transform GetTransform()
+    {
+        return transform;
     }
 }
