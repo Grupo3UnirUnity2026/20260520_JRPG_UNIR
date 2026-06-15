@@ -149,22 +149,11 @@ MonoBehaviour:
   damagePerHitPercentage: 30
   mediumHeartPercentage: 0
   fullHeartPercentage: 0
-  lifesNumber: 1
   recoverySecondsLimit: 0.5
-  recovering: 0
   onLifeChanged:
     m_PersistentCalls:
       m_Calls: []
   onLifeDepleted:
-    m_PersistentCalls:
-      m_Calls: []
-  onTotallyDead:
-    m_PersistentCalls:
-      m_Calls: []
-  onHalfLifeRecoved:
-    m_PersistentCalls:
-      m_Calls: []
-  onFullLifeRecoved:
     m_PersistentCalls:
       m_Calls: []
   debugReceiveDamage: 0
@@ -308,7 +297,8 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -87851405452967582, guid: d623d16029d3c04479190a13cc980b3b, type: 3}
+  m_Sprite: {fileID: -8356013338245289519, guid: d623d16029d3c04479190a13cc980b3b,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

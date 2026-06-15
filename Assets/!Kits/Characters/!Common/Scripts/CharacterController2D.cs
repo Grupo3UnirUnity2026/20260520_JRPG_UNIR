@@ -1,3 +1,4 @@
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class CharacterController2D : MonoBehaviour, IVisible
@@ -8,6 +9,8 @@ public class CharacterController2D : MonoBehaviour, IVisible
     Animator animator;
 
     [SerializeField] IVisible.Side side = IVisible.Side.Neutral;
+
+    private bool walking;
 
     private void Awake()
     {
@@ -22,11 +25,29 @@ public class CharacterController2D : MonoBehaviour, IVisible
     }
 
     Vector2 rawMove = Vector2.zero;
+    Vector2 previousRawMove = Vector2.zero;
     public void SetRawMove(Vector2 rawMove)
     {
         this.rawMove = rawMove;
-        this.animator.SetFloat("HorizontalVelocity", this.rawMove.x);
-        this.animator.SetFloat("VerticalVelocity", this.rawMove.y);
+
+        if (this.rawMove.x != 0f || this.rawMove.y != 0f) 
+        {
+            this.walking = true;
+            this.animator.SetFloat("HorizontalVelocity", this.rawMove.x);
+            this.animator.SetFloat("VerticalVelocity", this.rawMove.y);
+        }
+        else 
+        {
+            this.walking = false;
+            this.animator.SetFloat("HorizontalVelocity", this.previousRawMove.x);
+            this.animator.SetFloat("VerticalVelocity", this.previousRawMove.y);
+
+        }
+
+        this.animator.SetBool("Walking", this.walking);
+
+
+        this.previousRawMove = this.rawMove;
     }
 
     public IVisible.Side GetSide()

@@ -131,6 +131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerControl
   move: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   attack: {fileID: 1120369429361536294, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  blinkingSecondsInterval: 0.15
 --- !u!114 &966647317132659711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,22 +163,11 @@ MonoBehaviour:
   damagePerHitPercentage: 30
   mediumHeartPercentage: 50
   fullHeartPercentage: 100
-  lifesNumber: 3
   recoverySecondsLimit: 1.5
-  recovering: 0
   onLifeChanged:
     m_PersistentCalls:
       m_Calls: []
   onLifeDepleted:
-    m_PersistentCalls:
-      m_Calls: []
-  onTotallyDead:
-    m_PersistentCalls:
-      m_Calls: []
-  onHalfLifeRecoved:
-    m_PersistentCalls:
-      m_Calls: []
-  onFullLifeRecoved:
     m_PersistentCalls:
       m_Calls: []
   debugReceiveDamage: 0
@@ -295,7 +285,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -8661417700680405879, guid: d623d16029d3c04479190a13cc980b3b,
+  m_Sprite: {fileID: -2582850678860025792, guid: d623d16029d3c04479190a13cc980b3b,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
