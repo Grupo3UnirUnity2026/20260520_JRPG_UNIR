@@ -38,7 +38,7 @@ public class ProjectileController : MonoBehaviour
             return;
         }
 
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Obstacle"))
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Collisions"))
         {
             destroyed = true;
             Destroy(gameObject); 

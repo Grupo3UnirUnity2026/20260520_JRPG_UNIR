@@ -120,7 +120,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CharacterController
   movementSpeed: 3
   side: 0
-  prefabAttack: {fileID: 0}
+  prefabAttack: {fileID: 2310877623762095234, guid: 82b4bcec7d8714f419fd5f4c5d8f85da,
+    type: 3}
   dashSpeed: 20
   dashDuration: 0.15
   dashCooldown: 2
