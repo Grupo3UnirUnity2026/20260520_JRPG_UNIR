@@ -7,7 +7,6 @@ public class OrbeScript : MonoBehaviour
     HurtCollider hurtCollider;
     Animator animator;
 
-
     private void Awake()
     {
         orbeTrileMapScript =GetComponentInParent<OrbeTrileMapScript>();
@@ -29,8 +28,11 @@ public class OrbeScript : MonoBehaviour
 
     public void sendAnswer()
     {
-        Debug.Log("enviando respuesta por golpe");
-        orbeTrileMapScript.checkAnswer(this);
+        if (hurtCollider.enabled)
+        {
+            orbeTrileMapScript.checkAnswer(this);
+        }
+        
     }
     public void setCorrect()
     {
@@ -42,4 +44,5 @@ public class OrbeScript : MonoBehaviour
         animator.SetTrigger("error");
         hurtCollider.enabled = true;
     }
+    
 }

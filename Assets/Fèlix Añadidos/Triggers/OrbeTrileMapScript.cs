@@ -29,8 +29,7 @@ public class OrbeTrileMapScript : MonoBehaviour
 
     public void checkAnswer(OrbeScript orb)
     {
-        //Debug.Log($"activado el orbe: {Array.IndexOf(childOrbs, orb)}, y se esperaba el numero {progress}, asi que es:{childOrbs[progress] == orb}");
-        
+        //Debug.Log($"activado el orbe: {Array.IndexOf(childOrbs, orb)}, y se esperaba el numero {progress}, asi que es:{childOrbs[progress] == orb}")
         if (childOrbs[progress] == orb)
         {
            
