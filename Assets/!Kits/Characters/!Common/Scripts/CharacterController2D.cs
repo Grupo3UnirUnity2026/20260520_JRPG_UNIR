@@ -19,8 +19,12 @@ public class CharacterController2D : MonoBehaviour, IVisible
     [SerializeField] float dashDuration = 0.15f;
     [SerializeField] float dashCooldown = 2f;
 
+    [SerializeField] private Transform shootAttackPoint;
+
     bool isDashing = false;
     bool canDash = true;
+
+    public bool shootAttack = true;
 
     private void Awake()
     {
@@ -68,7 +72,8 @@ public class CharacterController2D : MonoBehaviour, IVisible
 
         this.animator.SetBool("Walking", this.walking);
 
-        this.previousRawMove = this.rawMove;
+        if (this.rawMove != Vector2.zero)
+            { this.previousRawMove = this.rawMove.normalized; }
         this.animator.SetFloat("AnimLastMoveX", this.previousRawMove.x);
         this.animator.SetFloat("AnimLastMoveY", this.previousRawMove.y);
 
@@ -87,10 +92,22 @@ public class CharacterController2D : MonoBehaviour, IVisible
     internal void Attack()
     {
         this.animator.SetTrigger("Attack");
+
+        if (shootAttack)
+            { ShootOnAttackAnimation(); }
     }
 
     internal void ShootOnAttackAnimation()
     {
+        if (this.gameObject.CompareTag("Player"))
+        {
+            GameObject ataque = Instantiate(this.prefabAttack, shootAttackPoint.position, Quaternion.identity);
+
+            ProjectileController projectile = ataque.GetComponent<ProjectileController>();
+            
+            if (projectile != null)
+                { projectile.SetDirection(this.previousRawMove); }
+        }
 
         if (this.gameObject.tag.StartsWith("EnemyShooter"))
         {
