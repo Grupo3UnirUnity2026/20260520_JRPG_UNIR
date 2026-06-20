@@ -119,6 +119,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &101624580 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 966647317132659711, guid: 2be68844c5137d640908511749d4c3d8,
+    type: 3}
+  m_PrefabInstance: {fileID: 3412773161271204842}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2478ada35111834594a6eb6f1727c4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HurtCollider
 --- !u!70 &101624584 stripped
 CapsuleCollider2D:
   m_CorrespondingSourceObject: {fileID: 2115493880989700047, guid: 2be68844c5137d640908511749d4c3d8,
@@ -7269,6 +7281,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7215428408828099476, guid: 2be68844c5137d640908511749d4c3d8,
+        type: 3}
+      propertyPath: hurtCollider
+      value: 
+      objectReference: {fileID: 101624580}
+    - target: {fileID: 7215428408828099476, guid: 2be68844c5137d640908511749d4c3d8,
+        type: 3}
+      propertyPath: hurtCollider2D
+      value: 
+      objectReference: {fileID: 101624584}
     - target: {fileID: 7215428408828099476, guid: 2be68844c5137d640908511749d4c3d8,
         type: 3}
       propertyPath: playerCollider

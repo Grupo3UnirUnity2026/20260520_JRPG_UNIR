@@ -25,7 +25,8 @@ public class CharacterController2D : MonoBehaviour, IVisible
     bool canDash = true;
 
     [SerializeField] Collider2D playerCollider;
-    Collider2D[] enemyColliders;
+    [SerializeField] HurtCollider hurtCollider;
+    [SerializeField] Collider2D hurtCollider2D;
 
     public bool shootAttack = true;
 
@@ -137,6 +138,9 @@ public class CharacterController2D : MonoBehaviour, IVisible
 
         if (dashDirection == Vector2.zero) return;
 
+        hurtCollider.enabled = false;
+        hurtCollider2D.enabled = false;
+
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
 
         foreach (GameObject enemy in enemies)
@@ -166,6 +170,9 @@ public class CharacterController2D : MonoBehaviour, IVisible
 
     void ResetDash()
     {
+        hurtCollider.enabled = true;
+        hurtCollider2D.enabled = true;
+
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
 
         foreach (GameObject enemy in enemies)
@@ -180,6 +187,7 @@ public class CharacterController2D : MonoBehaviour, IVisible
 
         isDashing = false;
     }
+
     void ResetDashCooldown()
     {
         canDash = true;
