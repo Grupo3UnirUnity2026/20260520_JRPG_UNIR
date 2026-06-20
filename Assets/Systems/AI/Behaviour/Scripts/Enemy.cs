@@ -94,17 +94,17 @@ public class Enemy : MonoBehaviour
                         Vector2 searchDirection = (sight.VisiblesInSight[0].GetTransform().position - transform.position).normalized;
                         this.characterController.SetRawMove(searchDirection);
 
-                        if (this.gameObject.tag.StartsWith("EnemyShooter") && sight.VisiblesToShoot.Count>0)
+                        if (this.gameObject.tag.StartsWith("EnemyShooter") && sight.VisiblesToShoot.Count > 0)
                         {
                             this.currentState = State.Attacking;
                             if (this.gameObject.tag.StartsWith("EnemyShooter") && this.previousState != this.currentState)
                             {
                                 StartCoroutine(Shoot());
                             }
-                            
+
                         }
                     }
-                    catch(System.Exception)
+                    catch (System.Exception)
                     {
                         //Si no pudimos obtener la dirección a seguir (puede que el gameobject ya se haya destruido), volvemos
                         //al estado Guarding:
@@ -129,9 +129,6 @@ public class Enemy : MonoBehaviour
             case State.Dead:
                 break;
         }
-
-
-
     }
 
     IEnumerator Shoot()
