@@ -8,6 +8,7 @@ public class HurtCollider : MonoBehaviour
 
     internal void NotifyHit(HitCollider hitCollider)
     {
+        
         onHitReceive.Invoke(hitCollider.tag);
     }
 
