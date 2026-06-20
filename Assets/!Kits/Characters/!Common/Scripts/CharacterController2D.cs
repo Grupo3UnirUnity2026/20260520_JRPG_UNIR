@@ -1,4 +1,6 @@
+using System;
 using UnityEditor.Experimental.GraphView;
+using UnityEditorInternal.Profiling.Memory.Experimental;
 using UnityEngine;
 
 public class CharacterController2D : MonoBehaviour, IVisible
@@ -11,6 +13,18 @@ public class CharacterController2D : MonoBehaviour, IVisible
     [SerializeField] IVisible.Side side = IVisible.Side.Neutral;
 
     private bool walking;
+    [SerializeField] GameObject prefabAttack;
+
+    [SerializeField] float dashSpeed = 20f;
+    [SerializeField] float dashDuration = 0.15f;
+    [SerializeField] float dashCooldown = 2f;
+
+    [SerializeField] private Transform shootAttackPoint;
+
+    bool isDashing = false;
+    bool canDash = true;
+
+    public bool shootAttack = true;
 
     private void Awake()
     {
@@ -21,11 +35,23 @@ public class CharacterController2D : MonoBehaviour, IVisible
     // Update is called once per frame
     void Update()
     {
-        this.rb2D.linearVelocity = rawMove * movementSpeed;
+        if (!isDashing)
+        {
+            this.rb2D.linearVelocity = rawMove * movementSpeed;
+        }
     }
 
-    Vector2 rawMove = Vector2.zero;
-    Vector2 previousRawMove = Vector2.zero;
+    private Vector2 rawMove = Vector2.zero;
+    private Vector2 previousRawMove = Vector2.zero;
+
+    /// <summary>
+    /// Propiedad de sólo lectura para que otros objetos sepan si estamos en tiempo de recuperación
+    /// </summary>
+    public Vector2 PreviousRawMove
+    {
+        get => this.previousRawMove;
+    }
+
     public void SetRawMove(Vector2 rawMove)
     {
         this.rawMove = rawMove;
@@ -46,8 +72,11 @@ public class CharacterController2D : MonoBehaviour, IVisible
 
         this.animator.SetBool("Walking", this.walking);
 
+        if (this.rawMove != Vector2.zero)
+            { this.previousRawMove = this.rawMove.normalized; }
+        this.animator.SetFloat("AnimLastMoveX", this.previousRawMove.x);
+        this.animator.SetFloat("AnimLastMoveY", this.previousRawMove.y);
 
-        this.previousRawMove = this.rawMove;
     }
 
     public IVisible.Side GetSide()
@@ -59,4 +88,74 @@ public class CharacterController2D : MonoBehaviour, IVisible
     {
         return transform;
     }
+
+    internal void Attack()
+    {
+        this.animator.SetTrigger("Attack");
+
+        if (shootAttack)
+            { ShootOnAttackAnimation(); }
+    }
+
+    internal void ShootOnAttackAnimation()
+    {
+        if (this.gameObject.CompareTag("Player"))
+        {
+            GameObject ataque = Instantiate(this.prefabAttack, shootAttackPoint.position, Quaternion.identity);
+
+            ProjectileController projectile = ataque.GetComponent<ProjectileController>();
+            
+            if (projectile != null)
+                { projectile.SetDirection(this.previousRawMove); }
+        }
+
+        if (this.gameObject.tag.StartsWith("EnemyShooter"))
+        {
+            GameObject ataque = Instantiate(this.prefabAttack, transform.position, transform.rotation);
+
+            ataque.GetComponent<EnemyShoot>().setShotDirection(previousRawMove);
+        }
+    }
+
+
+    internal void Dash()
+    {
+        Debug.Log("DASH ACTIVADO");
+        if (!canDash) return;
+        if (isDashing) return;
+
+        Vector2 dashDirection = rawMove;
+
+        if (dashDirection == Vector2.zero)
+        {
+            dashDirection = previousRawMove;
+        }
+
+        if (dashDirection == Vector2.zero) return;
+
+        canDash = false;
+        isDashing = true;
+
+        dashDirection = dashDirection.normalized;
+
+        rb2D.linearVelocity = dashDirection * dashSpeed;
+
+
+        animator.SetFloat("HorizontalVelocity", dashDirection.x);
+        animator.SetFloat("VerticalVelocity", dashDirection.y);
+        animator.SetTrigger("Dash");
+
+        Invoke(nameof(ResetDash), dashDuration);
+        Invoke(nameof(ResetDashCooldown), dashCooldown);
+    }
+
+    void ResetDash()
+    {
+        isDashing = false;
+    }
+    void ResetDashCooldown()
+    {
+        canDash = true;
+    }
+
 }

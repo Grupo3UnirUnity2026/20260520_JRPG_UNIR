@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -8,7 +9,9 @@ public class PlayerControl : MonoBehaviour
     [Header("CharacterActions")]
     [SerializeField] InputActionReference move;
     [SerializeField] InputActionReference attack;
+    [SerializeField] InputActionReference dash;
     [SerializeField] InputActionReference showInventory;
+    [SerializeField] InputActionReference interact;
     [SerializeField] GameObject canvasInventoryPanel;
     CharacterController2D characterController;
 
@@ -16,6 +19,10 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] private float blinkingSecondsInterval = 0.15f;
     private SpriteRenderer spriteRenderer;
     private Life life;
+
+    [SerializeField] float timeBetweenAttacks = 1f;
+
+    private bool interactPressed = false;
 
     private void Awake()
     {
@@ -37,14 +44,33 @@ public class PlayerControl : MonoBehaviour
         move.action.canceled += OnMove; //cada vez que finaliza una acción
 
         attack.action.Enable();
+        attack.action.started += OnAttack;
+
+        dash.action.Enable();
+        dash.action.started += OnDash;
+
         showInventory.action.Enable();
         showInventory.action.started += OnPressInventoryButton;
+
+        interact.action.Enable();
+        interact.action.started += OnInteract;
 
         //El jugador escuchará los eventos OnLifeChanged (cuando la barra de vida aumenta o dismunuye)
         //y OnLifeDepleted (cuando la barra de vida llega a su fin)
         this.life.onLifeChanged.AddListener(OnLifeChanged);
         this.life.onLifeDepleted.AddListener(OnLifeDepleted);
     }
+
+    private void OnAttack(InputAction.CallbackContext context)
+    {
+        this.characterController.Attack();
+    }
+
+    private void OnDash(InputAction.CallbackContext context)
+    {
+        characterController.Dash();
+    }
+
 
     private void OnPressInventoryButton(InputAction.CallbackContext context)
     {
@@ -58,18 +84,9 @@ public class PlayerControl : MonoBehaviour
         }
     }
 
-
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private void OnInteract(InputAction.CallbackContext context)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        interactPressed = true;
     }
 
     Vector2 rawMove = Vector2.zero;
@@ -120,13 +137,32 @@ public class PlayerControl : MonoBehaviour
         move.action.performed -= OnMove;
 
         attack.action.Disable();
+        attack.action.started -= OnAttack;
+
+        dash.action.Disable();
+        dash.action.started -= OnDash;
+
         showInventory.action.Disable();
         showInventory.action.started -= OnPressInventoryButton;
+        
+        interact.action.Disable();
+        interact.action.started -= OnInteract;
 
         //El jugador escuchará los eventos OnLifeChanged (cuando la barra de vida aumenta o dismunuye)
         //y OnLifeDepleted (cuando la barra de vida llega a su fin)
         this.life.onLifeChanged.RemoveListener(OnLifeChanged);
         this.life.onLifeDepleted.RemoveListener(OnLifeDepleted);
 
+    }
+
+    public bool ConsumeInteract()
+    {
+        if (interactPressed == false)
+        {
+            return false;
+        }
+
+        interactPressed = false;
+        return true;
     }
 }

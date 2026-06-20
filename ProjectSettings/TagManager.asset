@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 3
   tags:
   - Enemy
+  - EnemyShooterOctorok
+  - EnemyBullet
+  - TileMapCollisions
+  - EnemyShooterMiniDragon
+  - EnemyPatrolSnake
   layers:
   - Default
   - TransparentFX
@@ -14,11 +19,11 @@ TagManager:
   - UI
   - Collisions
   - EntryPoints
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Interactable
+  - Obstacle
+  - Enemies
+  - EnemyHitColliders
+  - PlayerShootColliders
   - 
   - 
   - 
