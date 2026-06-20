@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1872858172280409459
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1620517614924450777, guid: 3281923421eb22041a235b37370c9919,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.70784926
+      objectReference: {fileID: 0}
+    - target: {fileID: 1620517614924450777, guid: 3281923421eb22041a235b37370c9919,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.07056092
+      objectReference: {fileID: 0}
+    - target: {fileID: 1620517614924450777, guid: 3281923421eb22041a235b37370c9919,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 1620517614924450777, guid: 3281923421eb22041a235b37370c9919,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 2405726417211254753, guid: 3281923421eb22041a235b37370c9919,
+        type: 3}
+      propertyPath: m_Name
+      value: GreenSwordsManEnemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 2517589042581124917, guid: 3281923421eb22041a235b37370c9919,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.9602623
+      objectReference: {fileID: 0}
+    - target: {fileID: 2517589042581124917, guid: 3281923421eb22041a235b37370c9919,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.6741828
+      objectReference: {fileID: 0}
+    - target: {fileID: 4317452035013988895, guid: 3281923421eb22041a235b37370c9919,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: a318a912482c07740ae0ae45713a7b07,
+        type: 2}
+    - target: {fileID: 5060186066023554439, guid: 3281923421eb22041a235b37370c9919,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6294162778944853391, guid: 3281923421eb22041a235b37370c9919,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 6294162778944853391, guid: 3281923421eb22041a235b37370c9919,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 6294162778944853391, guid: 3281923421eb22041a235b37370c9919,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6294162778944853391, guid: 3281923421eb22041a235b37370c9919,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6294162778944853391, guid: 3281923421eb22041a235b37370c9919,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6294162778944853391, guid: 3281923421eb22041a235b37370c9919,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6294162778944853391, guid: 3281923421eb22041a235b37370c9919,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6294162778944853391, guid: 3281923421eb22041a235b37370c9919,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6294162778944853391, guid: 3281923421eb22041a235b37370c9919,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6294162778944853391, guid: 3281923421eb22041a235b37370c9919,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042730260843828049, guid: 3281923421eb22041a235b37370c9919,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4687623335507442363, guid: 7972a85c19dcf9e4197c65c166e3d6f1,
+        type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3281923421eb22041a235b37370c9919, type: 3}

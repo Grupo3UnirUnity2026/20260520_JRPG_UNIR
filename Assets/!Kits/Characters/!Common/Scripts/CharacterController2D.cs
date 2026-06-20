@@ -13,7 +13,6 @@ public class CharacterController2D : MonoBehaviour, IVisible
     [SerializeField] IVisible.Side side = IVisible.Side.Neutral;
 
     private bool walking;
-
     [SerializeField] GameObject prefabAttack;
 
     [SerializeField] float dashSpeed = 20f;
@@ -88,6 +87,10 @@ public class CharacterController2D : MonoBehaviour, IVisible
     internal void Attack()
     {
         this.animator.SetTrigger("Attack");
+    }
+
+    internal void ShootOnAttackAnimation()
+    {
 
         if (this.gameObject.tag.StartsWith("EnemyShooter"))
         {
@@ -96,6 +99,7 @@ public class CharacterController2D : MonoBehaviour, IVisible
             ataque.GetComponent<EnemyShoot>().setShotDirection(previousRawMove);
         }
     }
+
 
     internal void Dash()
     {

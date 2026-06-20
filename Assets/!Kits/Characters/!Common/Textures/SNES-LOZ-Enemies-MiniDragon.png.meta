@@ -1,0 +1,535 @@
+fileFormatVersion: 2
+guid: 956ff1870dd164c43a4856e5d149382c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6605483634051601137
+    second: SNES-LOZ-Enemies-MiniDragon_0
+  - first:
+      213: 7492959082208874703
+    second: SNES-LOZ-Enemies-MiniDragon_1
+  - first:
+      213: 7739231133855428877
+    second: SNES-LOZ-Enemies-MiniDragon_2
+  - first:
+      213: 1453390658863174454
+    second: SNES-LOZ-Enemies-MiniDragon_3
+  - first:
+      213: -5261714067126151988
+    second: SNES-LOZ-Enemies-MiniDragon_4
+  - first:
+      213: -2825439580768297315
+    second: SNES-LOZ-Enemies-MiniDragon_5
+  - first:
+      213: 546215500831055061
+    second: SNES-LOZ-Enemies-MiniDragon_6
+  - first:
+      213: -1192205919914329888
+    second: SNES-LOZ-Enemies-MiniDragon_7
+  - first:
+      213: 2855129304881845808
+    second: SNES-LOZ-Enemies-MiniDragon_8
+  - first:
+      213: 5505530140625806956
+    second: SNES-LOZ-Enemies-MiniDragon_9
+  - first:
+      213: -6882403043246496254
+    second: SNES-LOZ-Enemies-MiniDragon_10
+  - first:
+      213: 2499307494226832562
+    second: SNES-LOZ-Enemies-MiniDragon_11
+  - first:
+      213: 7081244295450544496
+    second: SNES-LOZ-Enemies-MiniDragon_12
+  - first:
+      213: -4869548287477953397
+    second: SNES-LOZ-Enemies-MiniDragon_13
+  - first:
+      213: 2163819070011189635
+    second: SNES-LOZ-Enemies-MiniDragon_14
+  - first:
+      213: 2231927332395972509
+    second: SNES-LOZ-Enemies-MiniDragon_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-MiniDragon_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 78
+        width: 15
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f25d492e546bab50800000000000000
+      internalID: 6605483634051601137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-MiniDragon_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 78
+        width: 15
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0d89bf5965cf760800000000000000
+      internalID: 7492959082208874703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-MiniDragon_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 78
+        width: 16
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01b81846b5476b60800000000000000
+      internalID: 7739231133855428877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-MiniDragon_3
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 78
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63319659a1b7b2410800000000000000
+      internalID: 1453390658863174454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-MiniDragon_4
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 78
+        width: 15
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc415470fe2aaf6b0800000000000000
+      internalID: -5261714067126151988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-MiniDragon_5
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 78
+        width: 15
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e1afdcba50ac8d0800000000000000
+      internalID: -2825439580768297315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-MiniDragon_6
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 58
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dcd8d1aa1c849700800000000000000
+      internalID: 546215500831055061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-MiniDragon_7
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 58
+        width: 16
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e8736c480f647fe0800000000000000
+      internalID: -1192205919914329888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-MiniDragon_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 28
+        width: 16
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0365a45c9f47f9720800000000000000
+      internalID: 2855129304881845808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-MiniDragon_9
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 28
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66253c4e72976c40800000000000000
+      internalID: 5505530140625806956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-MiniDragon_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 28
+        width: 16
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206a93e85eacc70a0800000000000000
+      internalID: -6882403043246496254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-MiniDragon_11
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 28
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bcacd19ce25fa220800000000000000
+      internalID: 2499307494226832562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-MiniDragon_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 8
+        width: 12
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079471e2b22a54260800000000000000
+      internalID: 7081244295450544496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-MiniDragon_13
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 8
+        width: 12
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8cc34ce1a3eb6cb0800000000000000
+      internalID: -4869548287477953397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-MiniDragon_14
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 8
+        width: 12
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 389ab32dafd670e10800000000000000
+      internalID: 2163819070011189635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-MiniDragon_15
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 8
+        width: 12
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9772f3651669fe10800000000000000
+      internalID: 2231927332395972509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 698990a2eb9d99a47a66fbcfd95e90d3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      SNES-LOZ-Enemies-MiniDragon_0: 6605483634051601137
+      SNES-LOZ-Enemies-MiniDragon_1: 7492959082208874703
+      SNES-LOZ-Enemies-MiniDragon_10: -6882403043246496254
+      SNES-LOZ-Enemies-MiniDragon_11: 2499307494226832562
+      SNES-LOZ-Enemies-MiniDragon_12: 7081244295450544496
+      SNES-LOZ-Enemies-MiniDragon_13: -4869548287477953397
+      SNES-LOZ-Enemies-MiniDragon_14: 2163819070011189635
+      SNES-LOZ-Enemies-MiniDragon_15: 2231927332395972509
+      SNES-LOZ-Enemies-MiniDragon_2: 7739231133855428877
+      SNES-LOZ-Enemies-MiniDragon_3: 1453390658863174454
+      SNES-LOZ-Enemies-MiniDragon_4: -5261714067126151988
+      SNES-LOZ-Enemies-MiniDragon_5: -2825439580768297315
+      SNES-LOZ-Enemies-MiniDragon_6: 546215500831055061
+      SNES-LOZ-Enemies-MiniDragon_7: -1192205919914329888
+      SNES-LOZ-Enemies-MiniDragon_8: 2855129304881845808
+      SNES-LOZ-Enemies-MiniDragon_9: 5505530140625806956
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

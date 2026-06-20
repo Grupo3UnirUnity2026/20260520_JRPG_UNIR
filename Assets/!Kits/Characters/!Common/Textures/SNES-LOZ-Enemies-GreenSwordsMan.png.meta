@@ -1,0 +1,483 @@
+fileFormatVersion: 2
+guid: 7972a85c19dcf9e4197c65c166e3d6f1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4687623335507442363
+    second: SNES-LOZ-Enemies-GreenSwordsMan_0
+  - first:
+      213: -2836774906957218867
+    second: SNES-LOZ-Enemies-GreenSwordsMan_1
+  - first:
+      213: -4406508661644843165
+    second: SNES-LOZ-Enemies-GreenSwordsMan_2
+  - first:
+      213: -404958709904015689
+    second: SNES-LOZ-Enemies-GreenSwordsMan_3
+  - first:
+      213: 583348654551108204
+    second: SNES-LOZ-Enemies-GreenSwordsMan_4
+  - first:
+      213: 6854989855311021210
+    second: SNES-LOZ-Enemies-GreenSwordsMan_5
+  - first:
+      213: 3013459824384276698
+    second: SNES-LOZ-Enemies-GreenSwordsMan_6
+  - first:
+      213: -2992988097728230874
+    second: SNES-LOZ-Enemies-GreenSwordsMan_7
+  - first:
+      213: -7247762487040078841
+    second: SNES-LOZ-Enemies-GreenSwordsMan_8
+  - first:
+      213: 119923302451116354
+    second: SNES-LOZ-Enemies-GreenSwordsMan_9
+  - first:
+      213: -6745225063808489186
+    second: SNES-LOZ-Enemies-GreenSwordsMan_10
+  - first:
+      213: 5844627107755189096
+    second: SNES-LOZ-Enemies-GreenSwordsMan_11
+  - first:
+      213: 990475986288244082
+    second: SNES-LOZ-Enemies-GreenSwordsMan_12
+  - first:
+      213: 7996686132663944874
+    second: SNES-LOZ-Enemies-GreenSwordsMan_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-GreenSwordsMan_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 265
+        width: 22
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5454f36996732feb0800000000000000
+      internalID: -4687623335507442363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-GreenSwordsMan_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 261
+        width: 22
+        height: 38
+      alignment: 9
+      pivot: {x: 0.51633227, y: 0.14183125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcbb2138040c1a8d0800000000000000
+      internalID: -2836774906957218867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-GreenSwordsMan_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 264
+        width: 22
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3672afa08bfe8d2c0800000000000000
+      internalID: -4406508661644843165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-GreenSwordsMan_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 264
+        width: 22
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be787be23c416af0800000000000000
+      internalID: -404958709904015689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-GreenSwordsMan_4
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 164
+        width: 29
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a88b6b288781800800000000000000
+      internalID: 583348654551108204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-GreenSwordsMan_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 164
+        width: 29
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9448b044f0d12f50800000000000000
+      internalID: 6854989855311021210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-GreenSwordsMan_6
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 164
+        width: 32
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8f5598eb5f1d920800000000000000
+      internalID: 3013459824384276698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-GreenSwordsMan_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 126
+        width: 32
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62acfe1ce25c676d0800000000000000
+      internalID: -2992988097728230874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-GreenSwordsMan_8
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 126
+        width: 29
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c03971b66ca6b90800000000000000
+      internalID: -7247762487040078841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-GreenSwordsMan_9
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 126
+        width: 29
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 249f3e2bb9d0aa100800000000000000
+      internalID: 119923302451116354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-GreenSwordsMan_10
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 68
+        width: 22
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1922adca852462a0800000000000000
+      internalID: -6745225063808489186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-GreenSwordsMan_11
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 68
+        width: 22
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863ed5a63694c1150800000000000000
+      internalID: 5844627107755189096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-GreenSwordsMan_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 68
+        width: 22
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275f34969a0eebd00800000000000000
+      internalID: 990475986288244082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-LOZ-Enemies-GreenSwordsMan_13
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 68
+        width: 22
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa60abd5bafe9fe60800000000000000
+      internalID: 7996686132663944874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 288f2bfd45fd50d45989956f78c6fefa
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      SNES-LOZ-Enemies-GreenSwordsMan_0: -4687623335507442363
+      SNES-LOZ-Enemies-GreenSwordsMan_1: -2836774906957218867
+      SNES-LOZ-Enemies-GreenSwordsMan_10: -6745225063808489186
+      SNES-LOZ-Enemies-GreenSwordsMan_11: 5844627107755189096
+      SNES-LOZ-Enemies-GreenSwordsMan_12: 990475986288244082
+      SNES-LOZ-Enemies-GreenSwordsMan_13: 7996686132663944874
+      SNES-LOZ-Enemies-GreenSwordsMan_2: -4406508661644843165
+      SNES-LOZ-Enemies-GreenSwordsMan_3: -404958709904015689
+      SNES-LOZ-Enemies-GreenSwordsMan_4: 583348654551108204
+      SNES-LOZ-Enemies-GreenSwordsMan_5: 6854989855311021210
+      SNES-LOZ-Enemies-GreenSwordsMan_6: 3013459824384276698
+      SNES-LOZ-Enemies-GreenSwordsMan_7: -2992988097728230874
+      SNES-LOZ-Enemies-GreenSwordsMan_8: -7247762487040078841
+      SNES-LOZ-Enemies-GreenSwordsMan_9: 119923302451116354
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
