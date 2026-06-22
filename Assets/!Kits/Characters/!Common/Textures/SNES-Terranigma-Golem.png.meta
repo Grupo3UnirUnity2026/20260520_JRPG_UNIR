@@ -1,0 +1,743 @@
+fileFormatVersion: 2
+guid: 5575d9bb5d68c7646a8d2a22a673acff
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 242001131041016057
+    second: SNES-Terranigma-Golem_0
+  - first:
+      213: 1823288136759539621
+    second: SNES-Terranigma-Golem_1
+  - first:
+      213: -1760240646079737264
+    second: SNES-Terranigma-Golem_2
+  - first:
+      213: 8619156791883815284
+    second: SNES-Terranigma-Golem_3
+  - first:
+      213: 8358088195560378226
+    second: SNES-Terranigma-Golem_4
+  - first:
+      213: 2332890092650046392
+    second: SNES-Terranigma-Golem_5
+  - first:
+      213: -3584819589350401235
+    second: SNES-Terranigma-Golem_6
+  - first:
+      213: 803857077062877398
+    second: SNES-Terranigma-Golem_7
+  - first:
+      213: -8339357327068005921
+    second: SNES-Terranigma-Golem_8
+  - first:
+      213: -4414934143932257266
+    second: SNES-Terranigma-Golem_9
+  - first:
+      213: 7634114659977053915
+    second: SNES-Terranigma-Golem_10
+  - first:
+      213: -722177814042931695
+    second: SNES-Terranigma-Golem_11
+  - first:
+      213: -8009439143877343165
+    second: SNES-Terranigma-Golem_12
+  - first:
+      213: 1060255670687346675
+    second: SNES-Terranigma-Golem_13
+  - first:
+      213: 4315463133298555953
+    second: SNES-Terranigma-Golem_14
+  - first:
+      213: -407133221650668437
+    second: SNES-Terranigma-Golem_15
+  - first:
+      213: 4599931006364144139
+    second: SNES-Terranigma-Golem_16
+  - first:
+      213: 7722817121691448878
+    second: SNES-Terranigma-Golem_17
+  - first:
+      213: 7676604363252083639
+    second: SNES-Terranigma-Golem_18
+  - first:
+      213: -5904746788860078487
+    second: SNES-Terranigma-Golem_19
+  - first:
+      213: 6064868357117571607
+    second: SNES-Terranigma-Golem_20
+  - first:
+      213: -8335902924373436156
+    second: SNES-Terranigma-Golem_21
+  - first:
+      213: -5090163400542277873
+    second: SNES-Terranigma-Golem_22
+  - first:
+      213: -512423579955174276
+    second: SNES-Terranigma-Golem_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 15
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SNES-Terranigma-Golem_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 158
+        width: 30
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f841fa1fb2cb5300800000000000000
+      internalID: 242001131041016057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-Terranigma-Golem_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 159
+        width: 32
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a77cb276ee9d4910800000000000000
+      internalID: 1823288136759539621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-Terranigma-Golem_2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 158
+        width: 30
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0529633657e5297e0800000000000000
+      internalID: -1760240646079737264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-Terranigma-Golem_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 159
+        width: 30
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47951ab9f656d9770800000000000000
+      internalID: 8619156791883815284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-Terranigma-Golem_4
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 159
+        width: 26
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f03c94ee4edf370800000000000000
+      internalID: 8358088195560378226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-Terranigma-Golem_5
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 159
+        width: 30
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b32f68dd27106020800000000000000
+      internalID: 2332890092650046392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-Terranigma-Golem_6
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 159
+        width: 29
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b58e0a399204ec0800000000000000
+      internalID: -3584819589350401235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-Terranigma-Golem_7
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 159
+        width: 32
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d04488a0cfd72b00800000000000000
+      internalID: 803857077062877398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-Terranigma-Golem_8
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 159
+        width: 29
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd97f01e1b6a44c80800000000000000
+      internalID: -8339357327068005921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-Terranigma-Golem_9
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 116
+        width: 30
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0cac2499c00bb2c0800000000000000
+      internalID: -4414934143932257266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-Terranigma-Golem_10
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 26
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6c88206d2d1f960800000000000000
+      internalID: 7634114659977053915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-Terranigma-Golem_11
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 115
+        width: 30
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e8d49ba1f4af5f0800000000000000
+      internalID: -722177814042931695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-Terranigma-Golem_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 52
+        width: 33
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3480513d881c8d090800000000000000
+      internalID: -8009439143877343165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-Terranigma-Golem_13
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 52
+        width: 32
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ffa96e3ae8c6be00800000000000000
+      internalID: 1060255670687346675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-Terranigma-Golem_14
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 52
+        width: 32
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13cfd8dfada93eb30800000000000000
+      internalID: 4315463133298555953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-Terranigma-Golem_15
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 52
+        width: 30
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b646043fd72995af0800000000000000
+      internalID: -407133221650668437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-Terranigma-Golem_16
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 52
+        width: 39
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02d3a9f0ec36df30800000000000000
+      internalID: 4599931006364144139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-Terranigma-Golem_17
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 52
+        width: 40
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2639b34145fc2b60800000000000000
+      internalID: 7722817121691448878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-Terranigma-Golem_18
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 52
+        width: 35
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bbaad8fef6c88a60800000000000000
+      internalID: 7676604363252083639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-Terranigma-Golem_19
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 52
+        width: 32
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966dd5984102e0ea0800000000000000
+      internalID: -5904746788860078487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-Terranigma-Golem_20
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 52
+        width: 28
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712ff7343adba2450800000000000000
+      internalID: 6064868357117571607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-Terranigma-Golem_21
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 12
+        width: 30
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409d49ea47ce05c80800000000000000
+      internalID: -8335902924373436156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-Terranigma-Golem_22
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 12
+        width: 39
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0fabf52b5b1c59b0800000000000000
+      internalID: -5090163400542277873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES-Terranigma-Golem_23
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 8
+        width: 39
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c74ec3e087183e8f0800000000000000
+      internalID: -512423579955174276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9a867300ef121e74f9d342cc94d15f40
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      SNES-Terranigma-Golem_0: 242001131041016057
+      SNES-Terranigma-Golem_1: 1823288136759539621
+      SNES-Terranigma-Golem_10: 7634114659977053915
+      SNES-Terranigma-Golem_11: -722177814042931695
+      SNES-Terranigma-Golem_12: -8009439143877343165
+      SNES-Terranigma-Golem_13: 1060255670687346675
+      SNES-Terranigma-Golem_14: 4315463133298555953
+      SNES-Terranigma-Golem_15: -407133221650668437
+      SNES-Terranigma-Golem_16: 4599931006364144139
+      SNES-Terranigma-Golem_17: 7722817121691448878
+      SNES-Terranigma-Golem_18: 7676604363252083639
+      SNES-Terranigma-Golem_19: -5904746788860078487
+      SNES-Terranigma-Golem_2: -1760240646079737264
+      SNES-Terranigma-Golem_20: 6064868357117571607
+      SNES-Terranigma-Golem_21: -8335902924373436156
+      SNES-Terranigma-Golem_22: -5090163400542277873
+      SNES-Terranigma-Golem_23: -512423579955174276
+      SNES-Terranigma-Golem_3: 8619156791883815284
+      SNES-Terranigma-Golem_4: 8358088195560378226
+      SNES-Terranigma-Golem_5: 2332890092650046392
+      SNES-Terranigma-Golem_6: -3584819589350401235
+      SNES-Terranigma-Golem_7: 803857077062877398
+      SNES-Terranigma-Golem_8: -8339357327068005921
+      SNES-Terranigma-Golem_9: -4414934143932257266
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -10,6 +10,7 @@ TagManager:
   - TileMapCollisions
   - EnemyShooterMiniDragon
   - EnemyPatrolSnake
+  - EnemyShooterFinalBoss
   layers:
   - Default
   - TransparentFX
