@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3597068350453126433}
   - component: {fileID: 4319460157739086697}
   - component: {fileID: 7056837559491057642}
+  - component: {fileID: 1563018793108151824}
   m_Layer: 0
   m_Name: PlayerSword
   m_TagString: Untagged
@@ -175,3 +176,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7b85c3e519c384dac9511bfa25c36b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SwordMovement
+--- !u!114 &1563018793108151824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790943175446045603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08843ab6206e2fb4b91eeeff4e168da0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HitCollider
