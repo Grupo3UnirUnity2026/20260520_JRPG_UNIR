@@ -9,6 +9,7 @@ public class InventoryInfo : ScriptableObject
         Health,
         Magic,
         Ammo,
+        Key
     }
 
     public enum UsageType
@@ -23,5 +24,5 @@ public class InventoryInfo : ScriptableObject
     public Sprite spriteImage;
     public int remainingUseCount = 3;
     public string infoText;
-
+    public bool usable = true;
 }
