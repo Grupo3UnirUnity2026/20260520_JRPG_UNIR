@@ -34,6 +34,9 @@ public class CharacterController2D : MonoBehaviour, IVisible
     [SerializeField] Transform swordAttackPoint;
     bool swordActive = false;
 
+    [SerializeField] LayerMask wallLayer;
+    [SerializeField] float swordWallCheckDistance = 1f;
+
     private PlayerWeaponManager weaponManager;
 
     private void Awake()
@@ -158,6 +161,19 @@ public class CharacterController2D : MonoBehaviour, IVisible
                 attackDirection = Vector2.down;
             }
 
+            RaycastHit2D wallHit = Physics2D.Raycast(
+                transform.position,
+                attackDirection,
+                swordWallCheckDistance,
+                wallLayer
+            );
+
+            if (wallHit.collider != null)
+            {
+                ResetSwordAttack();
+                return;
+            }
+
             Vector3 offset = new Vector3(attackDirection.x, attackDirection.y, 0f);
 
             GameObject sword = Instantiate(
@@ -191,7 +207,6 @@ public class CharacterController2D : MonoBehaviour, IVisible
             }
 
             Destroy(sword, 1f);
-
             Invoke(nameof(ResetSwordAttack), 1f);
         }
     }

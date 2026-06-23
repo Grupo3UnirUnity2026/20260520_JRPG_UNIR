@@ -177,6 +177,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SwordMovement
   yOffset: 0.25
+  swordCollider: {fileID: 4319460157739086697}
+  wallLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!114 &1563018793108151824
 MonoBehaviour:
   m_ObjectHideFlags: 0
