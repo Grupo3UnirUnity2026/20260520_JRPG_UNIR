@@ -104,6 +104,7 @@ public class DoorInteractable : MonoBehaviour, IInteractable
     {
         block = false;
     }
+    
 
     private void SetLetThroughCollider(bool activate)
     {

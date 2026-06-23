@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class ChestInteractable : MonoBehaviour, IInteractable
 {
@@ -18,6 +19,9 @@ public class ChestInteractable : MonoBehaviour, IInteractable
     [Header("Times")]
     [SerializeField] private float timeBeforeReward = 0.5f;
     [SerializeField] private float fadeDuration = 0.8f;
+
+    [Header("Events")]
+    public UnityEvent onChestOpened;
 
     private bool isOpen = false;
 
@@ -67,6 +71,7 @@ public class ChestInteractable : MonoBehaviour, IInteractable
         yield return new WaitForSeconds(timeBeforeReward);
 
         SpawnReward();
+        onChestOpened.Invoke();
 
         yield return StartCoroutine(FadeAndDestroy());
     }
