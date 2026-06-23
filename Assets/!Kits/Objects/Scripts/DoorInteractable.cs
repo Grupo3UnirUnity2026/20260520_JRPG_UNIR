@@ -12,6 +12,7 @@ public class DoorInteractable : MonoBehaviour, IInteractable
 
     [Header("Access")]
     [SerializeField] private InventoryInfo keyInventoryInfo;
+    [SerializeField] private bool letGoThrough = false;
     [SerializeField] private bool block = false;
 
     private bool opened = false;
@@ -22,6 +23,7 @@ public class DoorInteractable : MonoBehaviour, IInteractable
 
         openCollider.enabled = false;
         closedCollider.enabled = true;
+        SetLetThroughCollider(false);
 
         if (animator == null)
             { animator = GetComponent<Animator>(); }
@@ -37,7 +39,17 @@ public class DoorInteractable : MonoBehaviour, IInteractable
 
         animator.SetTrigger("Open");
 
-        openCollider.enabled = true;
+        if (letGoThrough)
+        {
+            SetLetThroughCollider(true);
+        }
+        else
+        {
+            openCollider.enabled = true;
+        }
+        
+
+
         closedCollider.enabled = false;
     }
 
@@ -77,5 +89,13 @@ public class DoorInteractable : MonoBehaviour, IInteractable
     public void unlockDoor()
     {
         block = false;
+    }
+
+    private void SetLetThroughCollider(bool activate)
+    {
+        foreach (BoxCollider2D bc in openCollider.GetComponents<BoxCollider2D>())
+        {
+            bc.enabled = activate;
+        }
     }
 }
