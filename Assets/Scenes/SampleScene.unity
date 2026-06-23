@@ -540,6 +540,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 5987371583383134851}
   m_PrefabAsset: {fileID: 0}
+--- !u!61 &719090495 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 4319460157739086697, guid: 8a07da19c97c12944a5ff1a0179c333b,
+    type: 3}
+  m_PrefabInstance: {fileID: 5987371583383134851}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &830797536 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6287294458539731406, guid: 3f53b01f4a5eddd43a56d88705299b25,
@@ -6968,6 +6974,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7215428408828099476, guid: 2be68844c5137d640908511749d4c3d8,
         type: 3}
+      propertyPath: wallLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 7215428408828099476, guid: 2be68844c5137d640908511749d4c3d8,
+        type: 3}
       propertyPath: swordAttackPrefab
       value: 
       objectReference: {fileID: 719090492}
@@ -7296,6 +7307,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7056837559491057642, guid: 8a07da19c97c12944a5ff1a0179c333b,
+        type: 3}
+      propertyPath: swordCollider
+      value: 
+      objectReference: {fileID: 719090495}
+    - target: {fileID: 7056837559491057642, guid: 8a07da19c97c12944a5ff1a0179c333b,
+        type: 3}
+      propertyPath: wallLayer.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
