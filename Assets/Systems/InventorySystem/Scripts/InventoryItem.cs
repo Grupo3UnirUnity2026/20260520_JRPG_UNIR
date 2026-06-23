@@ -15,8 +15,6 @@ public class InventoryItem : MonoBehaviour
     Inventory inventory;
     InventoryInfo inventoryInfo;
 
-    
-
     private void OnEnable()
     {
         useButton.onClick.AddListener(OnUse);
@@ -31,6 +29,8 @@ public class InventoryItem : MonoBehaviour
 
     private void OnUse()
     {
+        if (!inventoryInfo.usable) return;
+
         this.inventory.NotifyObjectUsed(this.inventoryInfo);
         this.inventoryInfo.remainingUseCount--;
         this.remainingUseCountText.text = this.inventoryInfo.remainingUseCount.ToString();
@@ -39,15 +39,14 @@ public class InventoryItem : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
     }
 
     private void OnDiscard()
     {
+        if (!inventoryInfo.usable) return;
+
         Destroy(gameObject);
     }
-
-
 
     public void Initialize(Inventory inv, InventoryInfo invInfo)
     {

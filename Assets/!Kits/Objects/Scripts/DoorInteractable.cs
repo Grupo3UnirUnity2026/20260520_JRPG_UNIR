@@ -10,6 +10,9 @@ public class DoorInteractable : MonoBehaviour, IInteractable
     [SerializeField] private Collider2D closedCollider;
     [SerializeField] private Collider2D openCollider;
 
+    [Header("Key")]
+    [SerializeField] private InventoryInfo keyInventoryInfo;
+
     private bool opened = false;
 
     private void Start()
@@ -40,7 +43,13 @@ public class DoorInteractable : MonoBehaviour, IInteractable
     public void ShowPrompt()
     {
         if (!opened)
-            { doorCanvas.SetActive(true); }
+        { 
+            if(keyInventoryInfo != null)
+            {
+                if (!CheckKey(keyInventoryInfo)) return;
+            }
+            doorCanvas.SetActive(true); 
+        }
     }
 
     public void HidePrompt()
@@ -51,5 +60,16 @@ public class DoorInteractable : MonoBehaviour, IInteractable
     public void FinishOpening()
     {
         animator.SetBool("IsOpen", true);
+    }
+    public bool CheckKey(InventoryInfo keyInInf)
+    {
+        foreach (InventoryInfo ii in FindObjectsByType<InventoryInfo>(FindObjectsSortMode.None))
+        {
+            if ((ii.spriteImage == keyInInf.spriteImage) && (ii.infoText == keyInInf.infoText))
+            {
+                return true;
+            }
+        }
+        return false;
     }
 }
