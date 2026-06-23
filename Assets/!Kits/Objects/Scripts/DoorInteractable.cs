@@ -8,7 +8,8 @@ public class DoorInteractable : MonoBehaviour, IInteractable
     [Header("Door")]
     [SerializeField] private Animator animator;
     [SerializeField] private Collider2D closedCollider;
-    [SerializeField] private Collider2D openCollider;
+    [SerializeField] private Collider2D open1Collider;
+    [SerializeField] private Collider2D open2Collider;
 
     [Header("Access")]
     [SerializeField] private InventoryInfo keyInventoryInfo;
@@ -20,7 +21,8 @@ public class DoorInteractable : MonoBehaviour, IInteractable
     {
         HidePrompt();
 
-        openCollider.enabled = false;
+        open1Collider.enabled = false;
+        open2Collider.enabled = false;
         closedCollider.enabled = true;
 
         if (animator == null)
@@ -37,7 +39,8 @@ public class DoorInteractable : MonoBehaviour, IInteractable
 
         animator.SetTrigger("Open");
 
-        openCollider.enabled = true;
+        open1Collider.enabled = true;
+        open2Collider.enabled = true;
         closedCollider.enabled = false;
     }
 
@@ -74,7 +77,7 @@ public class DoorInteractable : MonoBehaviour, IInteractable
         return false;
     }
 
-    public void unlockDoor()
+    public void UnlockDoor()
     {
         block = false;
     }
