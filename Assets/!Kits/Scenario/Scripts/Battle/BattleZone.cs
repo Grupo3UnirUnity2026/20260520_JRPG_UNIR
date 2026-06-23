@@ -20,7 +20,6 @@ public class BattleZone : MonoBehaviour
     [SerializeField] private UnityEvent onBattleFinished;
 
     private bool battleStarted = false;
-    private bool battleFinished = false;
 
     private void Start()
     {
@@ -55,7 +54,6 @@ public class BattleZone : MonoBehaviour
 
     private void FinishBattle()
     {
-        battleFinished = true;
         StartStopGenerators(false);
 
         zoneBlock.SetActive(false);
