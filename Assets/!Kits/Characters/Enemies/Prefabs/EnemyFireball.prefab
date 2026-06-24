@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4532190778404860436}
   - component: {fileID: 261576545667998853}
   - component: {fileID: 7851605202684330253}
+  - component: {fileID: 1782373801414551653}
   m_Layer: 11
   m_Name: EnemyFireball
   m_TagString: EnemyBullet
@@ -184,3 +185,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyShoot
   shotSpeed: 3
   shotDuration: 10
+--- !u!95 &1782373801414551653
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6794019517115419129}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a713858471a975840be856c08e0e0072, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
