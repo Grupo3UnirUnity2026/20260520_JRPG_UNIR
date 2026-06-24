@@ -30,7 +30,7 @@ public class keepObjectBetweenScenes : MonoBehaviour
     }
     private void OnDestroy()
     {
-        Debug.LogError("Me dessubscribo y soy el player falso");
+        
         SceneManager.sceneLoaded -= OnSceneLoaded;
         gameObject.GetComponent<PlayerControl>()?.UnSubscribe();
         gameobjectsSaved[0].GetComponent<PlayerControl>().Subscribe();
@@ -44,7 +44,7 @@ public class keepObjectBetweenScenes : MonoBehaviour
             CollectiveSuicide();
             return;
         }
-        Debug.Log("escena cargada");
+        
         if (CompareTag("Player") && gameobjectsSaved[id] == gameObject)
         {
             GameObject spawn = GameObject.FindGameObjectWithTag("Spawn");
@@ -60,7 +60,7 @@ public class keepObjectBetweenScenes : MonoBehaviour
             }
             //Debug.LogError("Me dessubscribo y soy el player verdadero al cargar escena");
             //gameObject.GetComponent<PlayerControl>().UnSubscribe();
-            Debug.LogError("Me subscribo y soy el player verdadero al cargar escena");
+            
             gameObject.GetComponent<PlayerControl>().Subscribe();
         }
 
