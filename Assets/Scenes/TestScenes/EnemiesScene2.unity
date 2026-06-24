@@ -750,7 +750,7 @@ PrefabInstance:
     - target: {fileID: 4080087520599108242, guid: 722f0ce13c206e1448e093d4193a5548,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5666901787350161660, guid: 722f0ce13c206e1448e093d4193a5548,
         type: 3}
@@ -1203,7 +1203,7 @@ PrefabInstance:
     - target: {fileID: 4326911167691635975, guid: ef98bf125f2484b4d84a8ad251f34467,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5347960876244012905, guid: ef98bf125f2484b4d84a8ad251f34467,
         type: 3}
@@ -2080,6 +2080,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ShootingSmallEnemyBase
+      objectReference: {fileID: 0}
+    - target: {fileID: 4309559807830036347, guid: dc916c8d6ad7e9d4a9478c2139814969,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5617432474995571989, guid: dc916c8d6ad7e9d4a9478c2139814969,
         type: 3}
