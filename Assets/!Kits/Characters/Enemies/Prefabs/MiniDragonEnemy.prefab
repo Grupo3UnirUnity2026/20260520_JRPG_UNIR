@@ -139,7 +139,7 @@ PrefabInstance:
         type: 3}
       propertyPath: prefabAttack
       value: 
-      objectReference: {fileID: 6794019517115419129, guid: c7338f335e01496489c2a338466cbc17,
+      objectReference: {fileID: 6794019517115419129, guid: 7df390bc9f05efa49a51856b1b9ff0ec,
         type: 3}
     - target: {fileID: 7468558247522368249, guid: 3281923421eb22041a235b37370c9919,
         type: 3}
